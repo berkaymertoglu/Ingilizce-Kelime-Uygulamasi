@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="sample" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.girisController">
+   <children>
+      <Text fx:id="txt_kullaniciadi" layoutX="648.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="txt_sifre" layoutX="680.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="txt_kullaniciadifield" layoutX="455.0" layoutY="222.0" promptText="Kullanıcı Adı" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button fx:id="txt_girisbuton" layoutX="477.0" layoutY="355.0" mnemonicParsing="false" onAction="#btn_giris_click" prefHeight="35.0" prefWidth="95.0" style="-fx-background-color: #0598ff;" text="Giriş Yap" textFill="WHITE" />
+      <Text fx:id="txt_uyedegilmisin" layoutX="611.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Hyperlink fx:id="txt_uyeol" layoutX="635.0" layoutY="451.0" onAction="#txt_uyeol_click" text="Üye ol!" underline="true" />
+      <Hyperlink fx:id="txt_sifremiunuttum" layoutX="482.0" layoutY="451.0" onAction="#txt_sifremiunuttum_click" text="Şifremi Unuttum" underline="true" />
+      <Text fx:id="lbl_sonuc" layoutX="155.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <PasswordField fx:id="txt_sifrefield" layoutX="457.0" layoutY="288.0" promptText="Şifre" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+      <Text fill="#0598ff" layoutX="482.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giriş Yap" wrappingWidth="112.016357421875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <AnchorPane prefHeight="500.0" prefWidth="345.0" style="-fx-background-color: #0598ff;">
+         <children>
+            <FontAwesomeIconView fill="WHITE" glyphName="BOOK" layoutX="138.0" layoutY="239.0" size="75" text="" />
+            <Text fx:id="txt_ingilizceKelimeUygulamasi" fill="WHITE" layoutX="56.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="İngilizce Kelime Uygulaması">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <FontAwesomeIconView fill="#0598ff" glyphName="USER" layoutX="423.0" layoutY="245.0" size="20" text="" />
+      <FontAwesomeIconView fill="#0598ff" glyphName="KEY" layoutX="420.0" layoutY="310.0" size="20" text="" />
+      <FontAwesomeIconView fill="#0598ff" glyphName="USERS" layoutX="506.0" layoutY="134.0" size="35" />
+   </children>
+</AnchorPane>

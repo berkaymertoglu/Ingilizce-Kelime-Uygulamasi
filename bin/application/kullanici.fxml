@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="sample" prefHeight="418.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kullaniciController">
+   <children>
+      <Button fx:id="btn_kelimeEkle" layoutX="106.0" layoutY="175.0" mnemonicParsing="false" onAction="#btn_kelimeEkle_click" prefHeight="33.0" prefWidth="136.0" style="-fx-background-color: #0598ff;" text="Kelime Ekle" textFill="WHITE" />
+      <Button fx:id="btn_sınavOl" layoutX="106.0" layoutY="247.0" mnemonicParsing="false" onAction="#btn_sınavOl_click" prefHeight="33.0" prefWidth="136.0" style="-fx-background-color: #0598ff;" text="Sınav Ol" textFill="WHITE" />
+      <Button fx:id="btn_kelimeOgren" layoutX="106.0" layoutY="321.0" mnemonicParsing="false" onAction="#btn_kelimeOgren_click" prefHeight="33.0" prefWidth="136.0" style="-fx-background-color: #0598ff;" text="Kelime Öğren" textFill="WHITE" />
+      <FontAwesomeIconView fill="#0598ff" glyphName="USER" layoutX="149.0" layoutY="102.0" size="70" />
+   </children>
+</AnchorPane>
