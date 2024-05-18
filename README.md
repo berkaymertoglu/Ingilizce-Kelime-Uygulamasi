@@ -4,13 +4,13 @@
 
 # Ana Özellikler
 
-* Kullanıcı dostu arayüz: İngilizce Kelime Uygulaması, kullanıcının sistem üzerinde faydalanabileceği özellikleri kolayca anlayıp kullanabileceği sezgisel bir arayüz sunar.
-* Güvenlik: İngilizce Kelime Uygulaması, uygulamayı kullanmak için oluşturduğunuz şifreyi veritabanında şifreli bir şekilde saklar. Olası veritabanı zafiyetlerinde kullanıcının zarar görmesini engeller.
-* Kelime öğrenme modülü: Bu uygulama, kullanıcının sisteme girdiği kelimeler üzerinden sınav olmadığı zamanlarda bu kelimeler üzerinden çalışma yapabileceği ve kelimeleri daha etkili bir şekilde öğrenebileceği kelime öğrenme modülü sunar.
-* Sınav modülü: Proje, kullanıcının her zaman kullanabileceği bir sınav modülüne sahiptir.
-* Uzun süreli öğrenmeyi amaçlama: Kelime Uygulaması, kullanıcının öğrenmek istediği kelimeyi uzun süreli belleğine atabilmesi için belirli tarihlerde sınava tabii tutar. Eğer kullanıcı bir soruya 1 gün sonra, 1 hafta sonra, 1 ay sonra, 3 ay sonra, 6 ay sonra ve 1 yıl sonra üst üste 6 kez olacak şekilde doğru cevap verirse ancak o zaman uygulama kullanıcının o kelimeyi öğrendiğini varsayar.
-* Fazladan cümlelerle kalıcılığı sağlama: Uygulama, kullanıcıya öğrenmek istediği kelimeyle alakalı birden fazla cümle ekleme olanağı tanır. Bu sayede, kullanıcı öğrenmek istediği kelimelerle kullandığı cümleleri bağdaştırarak daha kalıcı bir şekilde öğrenir.
-* Rapor sunumu: Uygulamanın sunduğu rapor özelliği sayesinde kullanıcı hangi kelimeye kaç kere doğru cevap verdiğini, bu kelimeye doğru cevap verme oranını ve bu kelimeyi kalıcı olarak öğrenebilmesi için kaç aşama kaldığını görme olanağına sahiptir. Kullanıcı eğer isterse bu raporları uygulama üzerinden çıktı alabilir.
+* **Kullanıcı dostu arayüz**: İngilizce Kelime Uygulaması, kullanıcının sistem üzerinde faydalanabileceği özellikleri kolayca anlayıp kullanabileceği sezgisel bir arayüz sunar.
+* **Güvenlik**: İngilizce Kelime Uygulaması, uygulamayı kullanmak için oluşturduğunuz şifreyi veritabanında şifreli bir şekilde saklar. Olası veritabanı zafiyetlerinde kullanıcının zarar görmesini engeller.
+* **Kelime öğrenme modülü**: Bu uygulama, kullanıcının sisteme girdiği kelimeler üzerinden sınav olmadığı zamanlarda bu kelimeler üzerinden çalışma yapabileceği ve kelimeleri daha etkili bir şekilde öğrenebileceği kelime öğrenme modülü sunar.
+* **Sınav modülü**: Proje, kullanıcının her zaman kullanabileceği bir sınav modülüne sahiptir.
+* **Uzun süreli öğrenmeyi amaçlama**: Kelime Uygulaması, kullanıcının öğrenmek istediği kelimeyi uzun süreli belleğine atabilmesi için belirli tarihlerde sınava tabii tutar. Eğer kullanıcı bir soruya 1 gün sonra, 1 hafta sonra, 1 ay sonra, 3 ay sonra, 6 ay sonra ve 1 yıl sonra üst üste 6 kez olacak şekilde doğru cevap verirse ancak o zaman uygulama kullanıcının o kelimeyi öğrendiğini varsayar.
+* **Fazladan cümlelerle kalıcılığı sağlama**: Uygulama, kullanıcıya öğrenmek istediği kelimeyle alakalı birden fazla cümle ekleme olanağı tanır. Bu sayede, kullanıcı öğrenmek istediği kelimelerle kullandığı cümleleri bağdaştırarak daha kalıcı bir şekilde öğrenir.
+* **Rapor sunumu**: Uygulamanın sunduğu rapor özelliği sayesinde kullanıcı hangi kelimeye kaç kere doğru cevap verdiğini, bu kelimeye doğru cevap verme oranını ve bu kelimeyi kalıcı olarak öğrenebilmesi için kaç aşama kaldığını görme olanağına sahiptir. Kullanıcı eğer isterse bu raporları uygulama üzerinden çıktı alabilir.
 
 İngilizce Kelime Uygulaması, kullanıcıların ingilizce kelimeler öğrenmesini kolaylaştırırken aynı zamanda onların güvenliklerini göz önünde bulunduran ve öğrenmeyi zevkli ve etkili hale getiren bir eğitim uygulamasıdır.
 
