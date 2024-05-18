@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="447.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KayitController">
+   <children>
+      <TextField fx:id="txt_kayitemailfield" layoutX="45.0" layoutY="159.0" prefHeight="26.0" prefWidth="223.0" promptText="Email Adresi" />
+      <TextField fx:id="txt_kayitkullaniciadifield" layoutX="45.0" layoutY="215.0" prefHeight="26.0" prefWidth="223.0" promptText="Kullanıcı Adı" />
+      <Text fx:id="lbl_sonuc" fill="#0598ff" layoutX="45.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button fx:id="btn_uyeolma" layoutX="45.0" layoutY="334.0" mnemonicParsing="false" onAction="#btn_uyeolma_click" prefHeight="42.0" prefWidth="223.0" style="-fx-background-color: #0598ff;" text="Üye Ol!" textFill="WHITE" />
+      <PasswordField fx:id="txt_kayitsifrefield" layoutX="45.0" layoutY="275.0" prefHeight="26.0" prefWidth="223.0" promptText="Şifre" />
+      <FontAwesomeIconView fill="#0598ff" glyphName="USER_PLUS" layoutX="121.0" layoutY="89.0" size="70" text="" />
+      <Text fill="#0598ff" layoutX="117.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hesap Aç">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      
+   </children>
+</AnchorPane>
