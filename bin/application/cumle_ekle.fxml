@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="415.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.cumleEkleController">
+   <children>
+      <Text fx:id="txt_cumleEkle" fill="#0598ff" layoutX="112.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumle Ekle">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <TextField fx:id="txt_cumleGirField" layoutX="89.0" layoutY="259.0" promptText="Cümle" />
+      <TextField fx:id="txt_kelimeIDField" layoutX="89.0" layoutY="195.0" promptText="Kelime" />
+      <Text fx:id="lbl_sonuc" layoutX="135.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button fx:id="btn_cumleEkle" layoutX="89.0" layoutY="329.0" mnemonicParsing="false" onAction="#btn_cumleEkleClick" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #0598ff;" text="Cümle Ekle" textFill="WHITE" />
+      <FontAwesomeIconView fill="#0598ff" glyphName="EDIT" layoutX="129.0" layoutY="104.0" size="70" text="" />
+   </children>
+</AnchorPane>
